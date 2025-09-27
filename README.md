@@ -23,7 +23,6 @@ This is my personal website where I showcase my portfolio and blog about web dev
 - [Prototype Preview](https://www.figma.com/proto/fWa3JGk7czd4UP135KfhAz/Taqwa-Design?node-id=745-174&t=0nzDaGSv0WhrSUgP-1)
 
 ## Progress
-## Progress
 - **Week 1**: Conducted research and gathered references for website design concepts.  
 - **Week 2**: Started creating the initial design prototype in Figma.  
 - **Week 3**: Finalized the design prototype in Figma with refined layout and user experience.  
