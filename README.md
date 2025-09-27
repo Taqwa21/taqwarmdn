@@ -21,7 +21,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 - JavaScript
 
 ## Prototype Preview
-- ![Website Preview](https://www.figma.com/proto/fWa3JGk7czd4UP135KfhAz/Taqwa-Design?node-id=747-349&t=0nzDaGSv0WhrSUgP-1)
+- [Prototype Preview](https://www.figma.com/proto/fWa3JGk7czd4UP135KfhAz/Taqwa-Design?node-id=747-349&t=0nzDaGSv0WhrSUgP-1)
 
 ## Progress
 - **Week 1**: Conducted research and gathered references for website design concepts.  
