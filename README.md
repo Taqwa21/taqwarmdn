@@ -15,7 +15,7 @@ This is my personal website where I showcase my portfolio and blog about web dev
 - Contact Me
 
 ## References
-- [Divyan](https://divyanshagarwal.com/?ref=onepagelove)
+- [Divyansh Agarwal](https://divyanshagarwal.com/?ref=onepagelove)
 - [William](https://williambout.me/)
 
 ## Technologies Used
