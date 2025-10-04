@@ -14,6 +14,10 @@ This is my personal website where I showcase my portfolio and blog about web dev
 - Experiences
 - Contact Me
 
+## References
+- [Ref1](https://divyanshagarwal.com/?ref=onepagelove)
+- [Ref2](https://williambout.me/)
+
 ## Technologies Used
 - HTML
 - CSS
