@@ -36,9 +36,20 @@
     }
     nav a.active {
       color: #fff;
+      animation: glow 2s ease-in-out infinite alternate;
     }
     nav a:hover {
       color: rgba(255,255,255,0.85);
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px rgba(255,255,255,0.3),
+                     0 0 10px rgba(255,255,255,0.2);
+      }
+      to {
+        text-shadow: 0 0 20px rgba(255,255,255,0.8),
+                     0 0 40px rgba(255,255,255,0.6);
+      }
     }
     main {
       display: flex;
