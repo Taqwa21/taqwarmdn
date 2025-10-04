@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Home - Portfolio</title>
+  <title>About - Portfolio</title>
   <!-- Import Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Raleway:wght@700&display=swap" rel="stylesheet">
   <style>
@@ -20,22 +20,20 @@
       text-align: center;
     }
     nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline-flex;
-  gap: 40px; /* jarak antar menu */
-}
-
-nav a {
-  text-decoration: none;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
-  color: rgba(255,255,255,0.6);
-  letter-spacing: 1px;
-  transition: color 0.3s;
-}
-
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      gap: 40px;
+    }
+    nav a {
+      text-decoration: none;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      letter-spacing: 1px;
+      transition: color 0.3s;
+    }
     nav a.active {
       color: #fff;
     }
@@ -50,33 +48,21 @@ nav a {
       padding: 40px;
     }
     .content {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 40px;
-      align-items: center;
-    }
-    .profile img {
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: none;
-      size: 50%;
-    }
-    .intro {
-      max-width: 500px;
+      max-width: 700px;
     }
     .intro h1 {
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
       font-size: 32px;
       margin-bottom: 15px;
+      text-align: center;
     }
     .intro p {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 16px;
       color: rgba(255,255,255,0.85);
       line-height: 1.6;
+      text-align: justify; /* teks rata kanan kiri */
     }
     footer {
       text-align: center;
@@ -84,19 +70,14 @@ nav a {
       background: #111;
       color: rgba(255,255,255,0.6);
     }
-    @media(max-width:768px){
-      .content {
-        flex-direction: column;
-      }
-    }
   </style>
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="home.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
         <li><a href="experiences.html">Experiences</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -105,14 +86,14 @@ nav a {
 
   <main>
     <div class="content">
-      <div class="profile">
-        <img src="/image/pp.jpg" alt="Foto Profil">
-      </div>
       <div class="intro">
-        <h1>Taqwa Amni Ramadhan</h1>
+        <h1>Tentang Saya</h1>
         <p>
-          Halo, saya adalah seorang web designer yang menyukai desain bersih dan fungsional. 
-          Saya senang menciptakan tampilan sederhana yang memberikan pengalaman terbaik bagi pengguna.
+          Saya adalah seorang web designer yang berfokus pada desain bersih, sederhana, dan fungsional.
+          Dalam perjalanan saya, saya banyak belajar bagaimana desain yang baik mampu memberikan pengalaman
+          yang nyaman bagi pengguna. Setiap proyek yang saya kerjakan selalu saya jadikan sebagai kesempatan
+          untuk bereksperimen, meningkatkan kemampuan, serta memberikan nilai lebih melalui detail kecil
+          yang sering kali tidak terlihat namun sangat dirasakan.
         </p>
       </div>
     </div>
